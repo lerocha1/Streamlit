@@ -53,6 +53,21 @@ Lembrando que para desfrutar da API (GPT-4 ou GPT3.5-Turbo), é necessário uma 
 
 Em Breve faremos o ChatBot responder perguntas sobre uma base de dados (sendo preparada), usando a API do GPT da openAI, modelo mais poderoso disponivel atualmente.
 
+## Nota 📝
+Colar a cahve API no arquivo .venv.
+
+A biblioteca dotenv. é para ler a api_key, sem mopstrar no codigo! Segurança.👮🚓🚨
+
+Você pode acessar a documentação do streamlit, clicando no icone no inicio deste arquivo!
+
+A pasta mensagens, é onde salva as mensagens do chat, para que o chat não seja perdido, caso o programa seja fechado. Ela esta com três exemplos, utilizados para teste! Caso queira começar zerado, é so apagar a pasta inteira, anter de rodar o Stream.
+
+Botão de Configuração - OFF
+
+## Foto - Cara! 🤖
+
+![](Imagem_chat.png)
+
 ## 📫 Contato
 
 <h2>
