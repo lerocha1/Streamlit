@@ -23,7 +23,8 @@ O Streamlit é uma biblioteca de código aberto para criação de aplicativos da
 Commit|Descrição|Data
 |---|---|---|
 |Inicial|Analisando dados FIFA23 - Jogo   | 12/04/2024|
-|Build|ChatBot - LLM's_GPT |16/04.2024|
+|Build|ChatBot - LLM's_GPT |16/04/2024|
+|Feature|ChatBot - LLM's_GPT|17/04/2024|
 
 ## Dependências
 -   streamlit 
@@ -54,15 +55,21 @@ Lembrando que para desfrutar da API (GPT-4 ou GPT3.5-Turbo), é necessário uma 
 Em Breve faremos o ChatBot responder perguntas sobre uma base de dados (sendo preparada), usando a API do GPT da openAI, modelo mais poderoso disponivel atualmente.
 
 ## Nota 📝
-Colar a cahve API no arquivo .venv.
+~~Colar a cahve API no arquivo .venv. .~~
 
-A biblioteca dotenv. é para ler a api_key, sem mopstrar no codigo! Segurança.👮🚓🚨
+~~A biblioteca dotenv. é para ler a api_key, sem mopstrar no codigo! Segurança.👮🚓🚨~~
 
 Você pode acessar a documentação do streamlit, clicando no icone no inicio deste arquivo!
 
 A pasta mensagens, é onde salva as mensagens do chat, para que o chat não seja perdido, caso o programa seja fechado. Ela esta com três exemplos, utilizados para teste! Caso queira começar zerado, é so apagar a pasta inteira, anter de rodar o Stream.
 
-Botão de Configuração - OFF
+Botão de Configuração - ~~OFF~~ **ON**
+
+Nesta Seção de configuração, ali Escolhemos o modelo (GPT-3.5-Turbo ou GPT-4), este ultimo consome muitos créditos...
+
+Logo abaixo, Deve se inserir a chave api_key, gerada de sua conta da OpenAI.
+
+Criamos dois arquivos .py, para melhor manutenção no futuro.
 
 ## Foto - Cara! 🤖
 
@@ -83,9 +90,8 @@ Botão de Configuração - OFF
 
 
 ## 🚀 Sobre mim
-Pai, ciclista e apaixonado por Tecnologia, atuo como Gerente multidisciplinar em uma empresa de engenharia e que nas horas vagas "gasto" meu tempo com programação e desafios na internet.
 
-Programando marjoritariamente em Python, também especialista em banco de Dados, Analise de dados/Big Data e programador FullStack.
+Imagina um pai **dedicado**, desafiando os limites sobre duas rodas pelas estradas, enquanto mergulha profundamente no mundo da Tecnologia. Sou um Gerente Multidisciplinar em uma empresa de engenharia, onde minha jornada é guiada pela inovação. Nas brechas do tempo, embarco em uma viagem emocionante pela programação e desvendo enigmas empolgantes na vastidão da internet.
 
-Recentemente, me deparei programando em Go, linguagem que mais cresce no mundo.
+Com maestria em Python, sou também um expert em Banco de Dados e um virtuoso da Análise de Dados/Big Data. E recentemente, embarquei em uma nova aventura dominando a arte da programação em Go, a linguagem que está revolucionando o cenário tecnológico.
 
